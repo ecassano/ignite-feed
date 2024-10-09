@@ -4,13 +4,14 @@ import Post from './components/Post';
 import styles from './App.module.css';
 
 import './global.css';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <div>
       <Header />
       <div className={styles.wrapper}>
-        <aside></aside>
+        <Sidebar />
         <main></main>
       </div>
     </div>
